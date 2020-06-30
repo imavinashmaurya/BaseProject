@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="breathingSpace">20dp</dimen>
+    <dimen name="breathingSpaceLarge">40dp</dimen>
+    <dimen name="spacingLarge">12dp</dimen>
+    <dimen name="spacingMedium">10dp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="spacingSmall">4dp</dimen>
+    <dimen name="noDp">0dp</dimen>
+    <dimen name="dividerSize">1dp</dimen>
+    <dimen name="dividerSizeSmall">0.5dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="largeText">24sp</dimen>
+    <dimen name="extraLargeText">32sp</dimen>
+    <dimen name="mediumText">17sp</dimen>
+    <dimen name="normalText">15sp</dimen>
+    <dimen name="smallText">12sp</dimen>
+
+    <dimen name="margin_xxsmall">3dp</dimen>
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_xlarge">18dp</dimen>
+    <dimen name="margin_xxlarge">22dp</dimen>
+
+
+    <dimen name="padding_xxsmall">3dp</dimen>
+    <dimen name="padding_xsmall">5dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+    <dimen name="padding_xlarge">18dp</dimen>
+    <dimen name="padding_xxlarge">22dp</dimen>
+</resources>

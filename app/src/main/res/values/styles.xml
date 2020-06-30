@@ -1,0 +1,94 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/nexa</item>
+        <item name="android:datePickerDialogTheme">@style/MyDatePickerDialogTheme</item>
+    </style>
+
+    <!--for custom date picker-->
+    <style name="MyDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <!--<item name="android:headerBackground">@color/colorPrimary</item>-->
+    </style>
+
+    <!--for custom bottomSheet-->
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--Text Styles-->
+    <style name="TextStyle">
+        <item name="android:fontFamily">@font/nexa</item>
+    </style>
+
+    <style name="NormalText" parent="TextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/nexa_regular</item>
+        <item name="android:textSize">@dimen/normalText</item>
+    </style>
+
+    <style name="NormalTextBold" parent="TextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/nexa_bold</item>
+        <item name="android:textSize">@dimen/normalText</item>
+    </style>
+
+    <style name="NormalTextHeavy" parent="TextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/nexa_heavy</item>
+        <item name="android:textSize">@dimen/normalText</item>
+    </style>
+
+    <style name="SmallText" parent="TextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/nexa_regular</item>
+        <item name="android:textSize">@dimen/smallText</item>
+    </style>
+
+    <style name="SmallTextBold" parent="TextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/nexa_bold</item>
+        <item name="android:textSize">@dimen/smallText</item>
+    </style>
+
+    <style name="MediumText" parent="TextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/nexa_regular</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+    <style name="MediumTextBold" parent="TextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/nexa_bold</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+    <style name="LargeTitle" parent="TextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/nexa_heavy</item>
+        <item name="android:textSize">@dimen/largeText</item>
+    </style>
+
+    <style name="LargeTitleNormal" parent="TextStyle">
+        <item name="android:fontFamily">@font/nexa_heavy</item>
+        <item name="android:textSize">@dimen/largeText</item>
+    </style>
+
+    <style name="ExtraLargeTitle" parent="TextStyle">
+        <item name="android:fontFamily">@font/nexa_heavy</item>
+        <item name="android:textSize">@dimen/extraLargeText</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
